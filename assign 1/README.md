@@ -1,7 +1,7 @@
 # Assignment 1 – Titanic Dataset
 
 ## 📚 Course
-Data Science / AI – Semester Project Assignments
+Data Science / AI – Semester Assignments
 
 ## 📌 Objective
 Load a sample dataset in Jupyter Notebook, display the first 10 rows,  
