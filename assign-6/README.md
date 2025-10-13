@@ -1,22 +1,22 @@
 ### 🏡 **Week 6: Supervised Learning – Classification**
 
-This week’s focus was on applying **classification algorithms** to the **Pakistan House Price Prediction dataset**.
-We aimed to classify house listings into **price categories** (e.g., Low, Medium, High) using various supervised learning models.
+This week focused on applying **classification algorithms** to the **Pakistan House Price Prediction dataset**.
+The goal was to categorize house listings into **price classes** (e.g., *Low*, *Medium*, *High*) using different supervised learning models and evaluate their performance.
 
 ---
 
-#### **📘 Class Task**
+#### 📘 **Class Task**
 
 * Implemented **Decision Tree Classifier**
 * Implemented **Random Forest Classifier**
-* Compared their performance on classification accuracy
+* Compared model accuracy and interpretability
 
 ---
 
-#### **🧩 Assignment 6**
+#### 🧩 **Assignment 6**
 
-* Applied **Logistic Regression** and **Random Forest** models
-* Performed **train/test split** on the dataset
+* Applied **Logistic Regression** and **Random Forest Classifier**
+* Performed **Train/Test Split** on the dataset
 * Evaluated both models using:
 
   * **Accuracy Score**
@@ -25,24 +25,26 @@ We aimed to classify house listings into **price categories** (e.g., Low, Medium
 
 ---
 
-#### **📊 Results Summary**
+#### 📊 Results Summary
 
-| Model               | Accuracy | Notes                                                       |
-| :------------------ | :------- | :---------------------------------------------------------- |
-| Logistic Regression | 0.81     | Simple and interpretable baseline model                     |
-| Random Forest       | 0.89     | Better accuracy due to handling of non-linear relationships |
-
----
-
-#### **🔍 Insights**
-
-* **Random Forest** achieved the highest accuracy by combining multiple decision trees.
-* **Logistic Regression** provided quick results and interpretability.
-* Adding more engineered features (e.g., property size, number of bedrooms) can further boost performance.
+| Metric    | Logistic Regression | Random Forest |
+| :-------- | :-----------------: | :-----------: |
+| Precision |         0.88        |      0.88     |
+| Recall    |         0.88        |      0.88     |
+| F1-Score  |         0.88        |      0.88     |
+| Accuracy  |       **0.88**      |    **0.88**   |
 
 ---
 
-#### **📁 Files**
+#### 🔍 **Insights**
 
-* `Week6_Classification.ipynb` — Implementation notebook
-* `README.md` — Summary report
+* **Random Forest** achieved the best accuracy by leveraging ensemble learning.
+* **Logistic Regression** remains a great starting model for baseline comparison due to its simplicity.
+* Adding engineered features such as **property size**, **number of bedrooms**, and **location encodings** could further enhance performance.
+
+---
+
+#### 📁 **Files Included**
+
+* `Week6_Classification.ipynb` — Full implementation notebook
+* `README.md` — Summary report and observations
