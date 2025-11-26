@@ -1,0 +1,53 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+.env
+.venv
+venv/
+env/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.checkpoint.ipynb
+
+# --- Dataset Downloads ---
+datasets/
+aclImdb/
+aclImdb_v1_extracted/
+*.tar.gz
+*.zip
+
+# --- NLTK Data ---
+nltk_data/
+
+# --- TensorFlow / ML Artifacts ---
+checkpoints/
+model/
+saved_model/
+*.h5
+*.keras
+
+# --- Vectorizer / NLP Files ---
+tfidf_vectorizer.pkl
+tokenizer.pkl
+vectorizer.pkl
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Cache / Temp Files ---
+.cache/
+tmp/
+temp/
+
+# --- VS Code ---
+.vscode/
+
+# --- Colab ---
+*.json
