@@ -1,9 +1,5 @@
 # Assignment 13 – Model Deployment using Flask
 
-## Course
-Applied Data Science with AI  
-BS Software Engineering – 7th Semester
-
 ## Project Title
 House Price Prediction
 
